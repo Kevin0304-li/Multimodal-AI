@@ -1,0 +1,12 @@
+{
+  "name": "multimodal-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root package for Multimodal AI project",
+  "scripts": {
+    "dev": "cd multimodal_project/frontend && npm run dev",
+    "build": "cd multimodal_project/frontend && npm run build",
+    "start": "cd multimodal_project/frontend && npm run start",
+    "backend": "cd multimodal_project && python -m src.app.main"
+  }
+} 
