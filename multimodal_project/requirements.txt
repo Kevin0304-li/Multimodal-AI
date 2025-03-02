@@ -1,0 +1,23 @@
+# Backend Dependencies
+fastapi==0.103.1
+uvicorn==0.23.2
+python-multipart==0.0.6
+pydantic==2.3.0
+httpx==0.25.0
+numpy==1.24.3
+pandas==2.0.3
+pillow==10.0.0
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+transformers==4.32.1
+sentence-transformers==2.2.2
+pytesseract==0.3.10
+openai-whisper==20230918
+langchain==0.0.285
+llama-cpp-python==0.1.81
+ffmpeg-python==0.2.0
+opencv-python==4.8.0.76
+matplotlib==3.7.3
+python-dotenv==1.0.0
+pytest==7.4.2

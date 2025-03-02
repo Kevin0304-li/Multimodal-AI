@@ -1,10 +1,17 @@
 # Dependencies
+node_modules/
+**/node_modules/
 /node_modules
+/multimodal_project/frontend/node_modules
+**/node_modules/**
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # Testing
 /coverage
+**/__tests__/**
+**/tests/
 
 # Next.js
 /.next/
@@ -12,6 +19,8 @@
 
 # Production
 /build
+**/build/**
+**/dist/**
 
 # Misc
 .DS_Store
@@ -25,6 +34,9 @@ yarn-error.log*
 # Local env files
 .env*.local
 .env
+.env.development.local
+.env.test.local
+.env.production.local
 
 # TypeScript
 *.tsbuildinfo
@@ -40,14 +52,16 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.env
-.venv
 
 # IDE
 .idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 .vscode/
-*.swp
-*.swo
 
 # Logs
 logs/
